@@ -15,9 +15,7 @@ add_action( 'init', function() {
 
 add_theme_support( 'wp-block-styles' );
 
-/**
- * Enqueue pattern and editor styles.
- */
+
 function daily_news_blog_pattern_styles() {
 	wp_enqueue_style(
 		'daily-news-blog-patterns',
@@ -29,7 +27,6 @@ function daily_news_blog_pattern_styles() {
 	if ( is_admin() ) {
 		global $pagenow;
 
-		// Do not enqueue editor style in site editor.
 		if ( 'site-editor.php' === $pagenow ) {
 			return;
 		}

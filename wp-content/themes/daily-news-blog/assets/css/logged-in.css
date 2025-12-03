@@ -1,18 +1,15 @@
 /* Logged-in users only: Panj-aab themed */
 
-/* 1. Softer background */
 body {
     background-color: #f8f3e8;
 }
 
-/* 2. Hero / site header: deep Panj-aab saffron band */
 header.wp-block-template-part,
 .site-header {
     background: linear-gradient(90deg, #f97316, #ca8a04);
     border-bottom: 4px solid #7f1d1d;
 }
 
-/* 3. Site title to stand out on the banner */
 .site-title,
 h1.wp-block-site-title {
     font-family: "Georgia", "Times New Roman", serif;
@@ -20,7 +17,6 @@ h1.wp-block-site-title {
     text-transform: uppercase;
 }
 
-/* 4. Main navigation links: mustard accent */
 .site-header nav a,
 header.wp-block-template-part nav a {
     color: #fef9c3;
@@ -28,14 +24,12 @@ header.wp-block-template-part nav a {
     font-size: 0.95rem;
 }
 
-/* 5. Nav hover: dark maroon like traditional phulkari borders */
 .site-header nav a:hover,
 header.wp-block-template-part nav a:hover {
     color: #7f1d1d;
     text-decoration: underline;
 }
 
-/* 6. Blog/post titles: bold, slightly larger for powerful stories */
 .wp-block-post-title,
 h1.entry-title,
 h2.entry-title {
@@ -43,7 +37,6 @@ h2.entry-title {
     letter-spacing: 0.03em;
 }
 
-/* 7. Post meta (date / category) styled as subtle captions */
 .wp-block-post-date,
 .wp-block-post-terms,
 .entry-meta {
@@ -53,7 +46,6 @@ h2.entry-title {
     color: #6b7280;
 }
 
-/* 8. Cards in query loop */
 .wp-block-post-template > li,
 .wp-block-query .wp-block-group {
     border: 1px solid #e5e7eb;
@@ -62,7 +54,6 @@ h2.entry-title {
     background-color: #fefce8;
 }
 
-/* 9. Read More links / buttons: Panj-aab green */
 .wp-block-post-excerpt a,
 .wp-block-button__link,
 button,
@@ -75,7 +66,6 @@ input[type="submit"] {
     font-weight: 600;
 }
 
-/* 10. Hover state for buttons */
 .wp-block-post-excerpt a:hover,
 .wp-block-button__link:hover,
 button:hover,
@@ -83,20 +73,17 @@ input[type="submit"]:hover {
     background-color: #166534;
 }
 
-/* 11. Footer: dark night sky with warm text */
 footer.wp-block-template-part,
 .site-footer {
     background-color: #111827;
     color: #e5e7eb;
 }
 
-/* 12. Footer links: saffron accent */
 footer.wp-block-template-part a,
 .site-footer a {
     color: #fbbf24;
 }
 
-/* 13. Highlight quotes about resistance / history */
 blockquote {
     border-left: 4px solid #7f1d1d;
     padding-left: 1rem;
